@@ -1,1 +1,1 @@
-# art_webstite
+# creating an art website
