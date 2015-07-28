@@ -1,106 +1,18 @@
 
-.logo h1,
-.logo h2 {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-size: 30px;
-
+header {
+	 background-color:#262626;
+	 width:100%;
+	 height: 100px;
+	 position:fixed;
+	 top:0px;		
 }
 
-/***** background_body color *****/
-
-/**/
-
-#main-content .slideshow-gallery .navigation a.previous, 
-#main-content .slideshow-thumbnails-gallery .navigation a.previous,
-#main-content .masonry-gallery .navigation a.previous,
-#main-content .slideshow-gallery .navigation a.previous:hover, 
-#main-content .slideshow-thumbnails-gallery .navigation a.previous:hover,
-#main-content .masonry-gallery .navigation a.previous:hover,
-#main-content .slideshow-gallery .navigation a.next, 
-#main-content .slideshow-thumbnails-gallery .navigation a.next,
-#main-content .masonry-gallery .navigation a.next,
-#main-content .slideshow-gallery .navigation a.next:hover, 
-#main-content .slideshow-thumbnails-gallery .navigation a.next:hover,
-#main-content .masonry-gallery .navigation a.next:hover,
-#main-content .topspins .topspin-widget-buy-button a,
-#main-content #store-detail .product-specifics .add-to-cart,
-#main-content #store-cart .cart-actions .checkout,
-#main-content .audio .audio-player li a.download,
-#main-content .audio .bandcamp-link,
-#main-content #store-listing ul.pagination li.current a,
-.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
-table.ui-datepicker-calendar td a.ui-state-default.ui-state-active,
-table.ui-datepicker-calendar td a.ui-state-active.ui-state-hover,
-.opentable li.OT_navListItem a.OT_navLink:hover, 
-.opentable li.OT_navListItem a.OT_navLink.selected,
-.opentable li.OT_navListItem a.OT_navLink.selected:hover,
-#contact-form input[type="submit"],
-#contact-form fieldset .captcha #captcha-list li a:hover,
-#contact-form fieldset .captcha #captcha-list li a.selected,
-#contact-form fieldset ul.parsley-errors-list li {
-	color: #ffffff;
+.group {
+	font-size: 0.5em;
 }
 
 
+a {
+	color: white;
 
-
-
-/***** site_name color *****/
-.logo h1 a {
-	color: #8f8883;
 }
-
-
-/***** subtitle color *****/
-.logo h2 {
-	color: #5e5e5e;
-}
-
-
-/***** nav primary color *****/
-nav#main-nav ul li a,
-nav#main-nav ul li.section span:before,
-nav#main-nav .toggle a:before {
-    color: #8f8883;
-}
-
-
-/***** nav secondary color *****/
-nav#main-nav ul li.section span,
-nav#main-nav ul li a:hover, 
-nav#main-nav ul li.current a {
-    color: #3e334d;
-}
-
-
-/***** nav_rollover color *****/
-nav#main-nav ul li a:hover, 
-nav#main-nav ul li.current a {
-    background-color: #afadaa; 
-}
-
-
-
-
-#main-nav { position: relative; z-index: 10; margin: 25px 0 35px -5px; }
-#main-nav .toggle { display: none; }
-#main-nav > ul { list-style: none; display: inline-block; width: 100%; }
-#main-nav ul li { float: left; width: 135px; margin-right: 10px; padding: 5px 0; }
-#main-nav ul li.section { position: relative; cursor: default; }
-#main-nav ul li.section span { font-style: italic; border-bottom-width: 1px; border-bottom-style: solid; }
-#main-nav ul li.section span:before { display: none; }
-#main-nav ul li:nth-child(5n+6) { clear: left; }
-#main-nav ul li a { text-decoration: none; padding: 5px; display: block; }
-#main-nav ul li span { display: block; margin: 5px; padding-bottom: 5px; }
-#main-nav ul li ul { width: 130px; padding: 0; }
-#main-nav ul li ul li { display: block; text-align: left; margin-right: 0; padding: 0; }
-#main-nav ul li ul li a { display: block; }
-#main-nav ul li.store .cart-link span { display: inline; margin: 0; }
-#main-nav ul li.store .cart-link { padding: 5px 10px 4px; display: none; position: relative; }
-#main-nav ul li.store .cart-link:before { bottom: 1px; }
-#main-nav ul li.store .cart-link span { float: left; }
-#main-nav ul li.store .cart-link .label { display: inline; vertical-align: text-bottom; }
-#main-nav ul li.store .cart-link .label span { float: none; }
-#main-nav ul li.store .cart-link.show-cart { display: block; }
-
-#page-title { margin-bottom: .75em; padding-bottom: .25em; border-bottom-width: 1px; border-bottom-style: solid; }
