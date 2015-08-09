@@ -1,1 +1,1 @@
-# creating an art website
+# Creating an art website
