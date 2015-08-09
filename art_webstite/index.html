@@ -9,6 +9,26 @@
 		<script type='text/javascript' src='/js/index.js'></script>	 
 	</head>
 	<body>
+
+	 <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script>
+  $(function() {
+    $( ".portrait" ).draggable();
+  });
+
+
+  </script>
+
+  
+</head>
+<body>
+<!--  
+<div id="portrait" class="ui-widget-content">
+  <p>Drag me around</p>
+</div> -->
+ 
 	    <div>
 		   <img src="images/portrait.jpg" class="portrait expand">
 	    </div>
@@ -16,13 +36,5 @@
 			<div class="ball bouncing">
 			</div>
 		</div>
-
-
-
-		<div class="button"><a href="#">Slide</a> </div>
-		<div id="container">
-		    <div id="box1" class="box">Box #1</div>
-		    <div id="box2" class="box">Box #2</div>
-		</div>​
 	</body>
 </html>
