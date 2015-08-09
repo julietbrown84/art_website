@@ -1,0 +1,9 @@
+.portrait {
+	border-radius: 50% 50% 50% 50%;  
+	width: 550px;
+	height: 550px;
+	margin-left: 45%;
+	margin-top: 5%;
+	position: absolute;
+
+}
