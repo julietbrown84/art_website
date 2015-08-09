@@ -1,4 +1,16 @@
 
+
+.content  {
+	color: grey;
+	font-size: 20px;
+	margin-left: 40px;
+}
+ 
+h2 {
+ 	margin-left: 30px;
+	color: #2B3856;
+}
+
 .portrait {
 	border-radius: 50% 50% 50% 50%;  
 	width: 470px;
