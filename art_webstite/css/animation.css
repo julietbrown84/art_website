@@ -1,12 +1,14 @@
 .portrait {
 	border-radius: 50% 50% 50% 50%;  
-	width: 450px;
-	height: 450px;
+	width: 470px;
+	height: 470px;
 	margin-left: 45%;
 	margin-top: 5%;
 	position: absolute;
+	background-image: ;
 
 }
+
 
 #container {
     margin: 10px;
@@ -27,10 +29,10 @@
 }
 
 .bouncing {
-    -webkit-animation: bounce 1.5s infinite;
-    -moz-animation: bounce 1.5s infinite;
-    -o-animation: bounce 1.5s infinite;
-    animation: bounce 1.5s infinite;
+    -webkit-animation: bounce 2.2s infinite;
+    -moz-animation: bounce 2.2s infinite;
+    -o-animation: bounce 2.2s infinite;
+    animation: bounce 2.2s infinite;
 }
 
 @-webkit-keyframes bounce {
