@@ -1,9 +1,90 @@
 .portrait {
 	border-radius: 50% 50% 50% 50%;  
-	width: 550px;
-	height: 550px;
+	width: 450px;
+	height: 450px;
 	margin-left: 45%;
 	margin-top: 5%;
 	position: absolute;
 
+}
+
+#container {
+    margin: 10px;
+    width: 80px;
+    height: 530px;
+    margin-left: 130px;
+    position: relative;
+}
+
+.ball {
+    background: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 130px;
+    top: 0;
+}
+
+.bouncing {
+    -webkit-animation: bounce 1.5s infinite;
+    -moz-animation: bounce 1.5s infinite;
+    -o-animation: bounce 1.5s infinite;
+    animation: bounce 1.5s infinite;
+}
+
+@-webkit-keyframes bounce {
+    from {
+        top: 0px;
+        -webkit-animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+    }
+    50% {
+        top: 500px;
+        -webkit-animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@-moz-keyframes bounce {
+    from {
+        top: 0px;
+        -moz-animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+    }
+    50% {
+        top: 500px;
+        -moz-animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@-o-keyframes bounce {
+    from {
+        top: 0px;
+        -o-animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+    }
+    50% {
+        top: 500px;
+        -o-animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes bounce {
+    from {
+        top: 0px;
+        animation-timing-function: cubic-bezier(0.33, 0, 0.66, 0.33);
+    }
+    50% {
+        top: 500px;
+        animation-timing-function: cubic-bezier(0.33, 0.66, 0.66, 1);
+    }
+    to {
+        top: 0px;
+    }
 }
