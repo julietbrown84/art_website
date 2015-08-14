@@ -1,5 +1,5 @@
 $(document).ready(function () {  
-	var 	fly = document.getElementById('fly'),
+	   var fly = document.getElementById('fly'),
 		cursor = document.getElementById('cursor'),
 		updateFly = new Date(),
 		updateCursor = new Date();
